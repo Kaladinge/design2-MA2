@@ -78,27 +78,30 @@ footer {
 
 .card-body {
   text-align: center;
+  position: relative;
 }
 
 .price {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .price__current {
-  color: #bf471b;
   font-size: 35px;
 }
 
-.price__original {
-  text-decoration: line-through;
+.category {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 h6, .h6 {

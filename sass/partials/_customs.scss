@@ -77,21 +77,26 @@ footer {
 
 .card-body {
   text-align: center;
+  position: relative;
 }
 
 .price {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
 }
 
 .price__current {
-  color: #bf471b;
   font-size: 35px;
 }
 
-.price__original {
-  text-decoration: line-through;
+.category {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 h6 {
