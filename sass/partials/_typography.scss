@@ -1,9 +1,11 @@
-.seasonal__text,
-.lamps__text {
+.intro__text {
   color: white;
   font-family: "Libre Baskerville", serif;
   font-size: 45px;
-  background-color: rgba(0, 0, 0, 0.2);
   padding: 10px;
-  border-radius: 10px;
+}
+
+.intro__categories {
+  font-size: 25px;
+  font-style: italic;
 }
