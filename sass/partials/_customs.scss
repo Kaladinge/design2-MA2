@@ -10,6 +10,10 @@ footer {
   background-image: url("../../images/tileable_wood_texture.png");
 }
 
+nav {
+  margin-bottom: 10px;
+}
+
 #navbar-brand__logo {
   width: 250px;
 }
@@ -23,13 +27,20 @@ footer {
 }
 
 #favorite,
+#basket,
 #user {
-  padding: 15px;
   cursor: pointer;
 }
 
-.col-12 {
-  margin: 10px 0 !important;
+#favorite,
+#basket {
+  width: 45px;
+}
+
+#user {
+  align-self: center;
+  font-size: 30px;
+  margin-left: 5px;
 }
 
 .seasonal,
@@ -58,21 +69,19 @@ footer {
   position: relative;
 }
 
-.product-pic__discount {
+.product-pic__heart,
+.product-pic__basket {
   position: absolute;
-  top: 10px;
+  bottom: 10px;
   left: 10px;
-  background-color: #d95204;
-  padding: 25px 20px;
+  cursor: pointer;
+  width: 45px;
+  background-color: white;
   border-radius: 50%;
-  color: white;
 }
 
-.product-pic__heart {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  cursor: pointer;
+.product-pic__basket {
+  left: 60px;
 }
 
 .card-body {
@@ -101,7 +110,6 @@ footer {
 
 h6 {
   color: black;
-  font-size: 0.8em !important;
 }
 
 .button {
@@ -116,11 +124,6 @@ h6 {
   text-transform: uppercase;
   font-family: "Open sans";
   cursor: pointer;
-}
-
-.dicount-button {
-  width: 350px;
-  max-width: 100%;
 }
 
 /* footer */
